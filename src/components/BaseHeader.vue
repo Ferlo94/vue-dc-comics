@@ -47,7 +47,7 @@ export default {
       @include listInline;
       align-items: center;
       justify-content: space-between;
-      max-width: var(--container-md)
+      width: var(--container-md)
     }
 
     &__logo {

@@ -1,8 +1,8 @@
 <template>
   <main class="main">
-      <div class="main__text">
-          <h2> Content goes here </h2>
-      </div>
+    <div class="main__container">
+        <h2> Content goes here </h2>
+    </div>    
   </main>
 </template>
 
@@ -19,10 +19,22 @@ export default {
     @include listInline;
     background-color: var(--secondary-color);
     height: 9.375rem;
-    align-items: center;
+    justify-content: center;
 
-    h2 {
-        color: var(--white);
+    
+
+    &__container {
+        @include listInline;
+        width: var(--container-md);
+        align-items: center;
+        
+        
+
+        h2 {
+            color: var(--white);
+        }
+
+
     }
 }
 
