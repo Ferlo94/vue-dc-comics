@@ -40,14 +40,15 @@ export default {
     
     @include listInline;
     background-color: white;
-    height: 9.375rem;
+    height: 7.5rem;
     justify-content: center;
 
     &__container {
       @include listInline;
+      margin: auto;
+      width: 100%;
+      max-width: var(--container-md);
       align-items: center;
-      justify-content: space-between;
-      width: var(--container-md)
     }
 
     &__logo {
@@ -66,6 +67,7 @@ export default {
           margin: .625rem;
           padding-bottom: 3.75rem;
           text-decoration: none;
+          font-weight: bold;
         }
         .active a:hover {
           border-bottom: .3125rem solid var(--primary-color);

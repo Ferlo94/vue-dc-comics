@@ -18,14 +18,16 @@ export default {
 .main {
     @include listInline;
     background-color: var(--secondary-color);
-    height: 9.375rem;
+    height: 7.5rem;
     justify-content: center;
 
     
 
     &__container {
         @include listInline;
-        width: var(--container-md);
+        margin: auto;
+        width: 100%;
+        max-width: var(--container-md);
         align-items: center;
         
         
