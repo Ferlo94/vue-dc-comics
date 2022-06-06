@@ -40,19 +40,22 @@ export default {
         margin: auto;
         width: var(--container-md);
         align-items: center;
+    }
 
-        &__top {
-            width: 100%;
-            height: 150px;
-            background-color: var(--primary-color);
-            @include listInline;
-            justify-content: space-around;
+    &__top {
+        width: 100%;
+        height: 150px;
+        background-color: var(--primary-color);
+        @include listInline;
+        justify-content: space-between;
 
-            img {
-                width: 50px;
-            }
-            
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+            padding: 35px;
         }
+        
     }
 }
 
