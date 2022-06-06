@@ -8,16 +8,16 @@
 
     <nav class="header__nav">
       <ul>
-        <li class="active"><a href="#">Link</a></li>
-        <li class="active"><a href="#">Link</a></li>
-        <li class="active"><a href="#">Link</a></li>
-        <li class="active"><a href="#">Link</a></li>
-        <li class="active"><a href="#">Link</a></li>
-        <li class="active"><a href="#">Link</a></li>
-        <li class="active"><a href="#">Link</a></li>
-        <li class="active"><a href="#">Link</a></li>
-        <li class="active"><a href="#">Link</a></li>
-        <li class="active"><a href="#">Link</a></li>
+        <li class="active"><a href="#">CHARACTERS</a></li>
+        <li class="active"><a href="#">COMICS</a></li>
+        <li class="active"><a href="#">MOVIES</a></li>
+        <li class="active"><a href="#">TV</a></li>
+        <li class="active"><a href="#">GAMES</a></li>
+        <li class="active"><a href="#">COLLECTIBLES</a></li>
+        <li class="active"><a href="#">VIDEOS</a></li>
+        <li class="active"><a href="#">FANS</a></li>
+        <li class="active"><a href="#">NEWS</a></li>
+        <li class="active"><a href="#">SHOP</a></li>
       </ul>
     </nav>
 
@@ -41,13 +41,15 @@ export default {
     @include listInline;
     align-items: center;
     background-color: white;
+    height: 150px;
+    justify-content: space-around;
 
     &__logo {
-      width: 30%;
+      
     }
 
     &__nav {
-       width: 60%;
+       
 
       ul {
 
@@ -56,11 +58,12 @@ export default {
         a {
           color: var(--terzo-color);
           margin: .625rem;
+          padding-bottom: 60px;
           text-decoration: none;
         }
         .active a:hover {
           border-bottom: 5px solid var(--primary-color);
-
+          color: var(--primary-color);
         }
         
 
