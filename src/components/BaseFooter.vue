@@ -33,18 +33,24 @@ export default {
 .footer {
     height: 150px;
     background-color: var(--primary-color);
+    @include listInline;
 
     &__container {
-
+        @include listInline;
         margin: auto;
-        width: 100%;
-        max-width: var(--container-md);
+        width: var(--container-md);
         align-items: center;
 
         &__top {
+            width: 100%;
             height: 150px;
             background-color: var(--primary-color);
             @include listInline;
+            justify-content: space-around;
+
+            img {
+                width: 50px;
+            }
             
         }
     }
