@@ -1,7 +1,7 @@
 <template>
   <main class="main">
     <div class="main__container">
-        <h2> Content goes here </h2>
+        <div class="main__hero"></div>
     </div>    
   </main>
 </template>
@@ -17,8 +17,7 @@ export default {
 
 .main {
     @include listInline;
-    background-color: var(--secondary-color);
-    height: 7.5rem;
+    height: 400px;
     justify-content: center;
 
     
@@ -27,7 +26,7 @@ export default {
         @include listInline;
         margin: auto;
         width: 100%;
-        max-width: var(--container-md);
+        // max-width: var(--container-md);
         align-items: center;
         
         
@@ -37,6 +36,13 @@ export default {
         }
 
 
+    }
+
+    &__hero {
+        background-image: url(../assets/img/jumbotron.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 400px;
     }
 }
 
