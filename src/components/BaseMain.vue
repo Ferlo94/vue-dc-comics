@@ -106,7 +106,7 @@ export default {
 
 .main {
     @include listInline;
-    height: 1000px;
+    height: 1100px;
     justify-content: center;
     
 
@@ -148,7 +148,7 @@ export default {
     }
 
     &__bottom {
-        height: 700px;
+        height: 800px;
         width: 100%;
         background-color: black;
 
@@ -162,7 +162,6 @@ export default {
 
         img {
             width: 100%;
-            height: 100%;
         }
     }
 }
