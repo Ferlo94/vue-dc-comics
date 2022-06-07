@@ -33,10 +33,10 @@
                 <div class="follow-us">
                     <span><strong>FOLLOW US</strong></span>
                     <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <img src="../assets/img/footer-periscope.png" alt="">
                 </div>
             </div>    
         </div>
@@ -70,7 +70,7 @@ export default {
         align-items: center;
         @include listInline;
         height: 120px;
-        justify-content: space-around;
+        justify-content: space-between;
         
     }
 
@@ -146,7 +146,7 @@ export default {
         };
 
         img {
-            margin: 10px;
+            margin: 6px;
         }
     }
 }
