@@ -6,6 +6,7 @@
             <div class="main__container-2">
                 <div class="product" v-for="(product, index) in products" :key="index">
                     <img :src="product.thumb" :alt="product.series">
+                    <h3 class="white">{{product.series}}</h3>
                 </div>
             </div>
         </div>
@@ -105,7 +106,7 @@ export default {
 
 .main {
     @include listInline;
-    height: 900px;
+    height: 1000px;
     justify-content: center;
     
 
@@ -147,7 +148,7 @@ export default {
     }
 
     &__bottom {
-        height: 600px;
+        height: 700px;
         width: 100%;
         background-color: black;
 
