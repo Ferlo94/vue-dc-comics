@@ -30,7 +30,14 @@
 
                 <h3 class="sign-up white">SIGN UP NOW!</h3>
 
-                <div class="follow-us"></div>
+                <div class="follow-us">
+                    <span><strong>FOLLOW US</strong></span>
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                </div>
             </div>    
         </div>
 
@@ -63,6 +70,7 @@ export default {
         align-items: center;
         @include listInline;
         height: 120px;
+        justify-content: space-around;
         
     }
 
@@ -125,6 +133,21 @@ export default {
         border: 3px solid var(--primary-color);
         padding: 8px;
         
+    }
+
+    .follow-us {
+        @include listInline;
+        align-items: center;
+
+        span {
+            color: var(--primary-color);
+            font-size: 20px;
+            margin-right: 8px;
+        };
+
+        img {
+            margin: 10px;
+        }
     }
 }
 
