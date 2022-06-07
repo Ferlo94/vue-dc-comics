@@ -65,7 +65,7 @@ export default {
         a {
           color: var(--terzo-color);
           margin: .625rem;
-          padding-bottom: 3.75rem;
+          padding-bottom: 2.75rem;
           text-decoration: none;
           font-weight: bold;
         }
