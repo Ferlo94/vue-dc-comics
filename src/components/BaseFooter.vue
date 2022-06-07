@@ -26,7 +26,11 @@
             </div>
         </div>
         <div class="footer__bottom">
-            <div class="footer__container">
+            <div class="footer__container-1">
+
+                <h3 class="sign-up white">SIGN UP NOW!</h3>
+
+                <div class="follow-us"></div>
             </div>    
         </div>
 
@@ -51,6 +55,15 @@ export default {
         width: var(--container-md);
 
         @include listInline;
+    }
+
+    &__container-1 {
+        margin: auto;
+        width: var(--container-md);
+        align-items: center;
+        @include listInline;
+        height: 120px;
+        
     }
 
     &__top {
@@ -106,6 +119,12 @@ export default {
     &__bottom {
         background-color: var(--terzo-color);
         height: 120px;
+    }
+
+    .sign-up {
+        border: 3px solid var(--primary-color);
+        padding: 8px;
+        
     }
 }
 
